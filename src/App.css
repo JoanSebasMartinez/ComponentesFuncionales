@@ -1,11 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -26,6 +25,32 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.profilePic {
+  width: 150px;
+  height: 150px;
+  vertical-align: auto;
+  margin: 10px, 10px, 10px, 10px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+.Inicio{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 @keyframes App-logo-spin {
