@@ -20,7 +20,7 @@ function PersonCard(props){
     const {perfil, name, age}= props;
     return(
         <div className="contenedor">
-                <div><img className="App-logo" src={perfil} alt="profile"></img></div>
+                <div><img className="profilePic" src={perfil} alt="profile"></img></div>
                 <div>
                 <h2>{name}</h2>
                 <h5>Age: {age}</h5>
