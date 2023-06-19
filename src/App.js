@@ -1,9 +1,7 @@
-import logo from './';
+import logo from './logo.svg';
 import './App.css';
 import PersonCard from "./componentes/PersonCard";
 import LightSwitch from './componentes/LightSwitch';
-
-
 
 
 function App() {
